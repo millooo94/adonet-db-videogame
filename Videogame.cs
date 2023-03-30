@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace adonet_db_videogame
 {
-    public record Videogame
+    public record VideogameSelect
     {
 
-        public Videogame(long id, string name, string overview, DateOnly release_date, long software_house_id)
+        public VideogameSelect(long id, string name, string overview, DateTime release_date, long software_house_id)
         {
             Id = id;
             Name = name;
@@ -23,7 +23,25 @@ namespace adonet_db_videogame
         public long Id { get; set; }
         public string Name { get; set; }
         public string Overview { get; set; }
-        public DateOnly ReleaseDate { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public long SoftwareHouseID { get; set; }
+
+    }
+
+    public record VideogameInsert
+    {
+
+        public VideogameInsert(string name, string overview, DateTime release_date, long software_house_id)
+        {
+            Name = name;
+            Overview = overview;
+            ReleaseDate = release_date;
+            SoftwareHouseID = software_house_id;
+        }
+
+        public string Name { get; set; }
+        public string Overview { get; set; }
+        public DateTime ReleaseDate { get; set; }
         public long SoftwareHouseID { get; set; }
 
     }

@@ -1,3 +1,2 @@
-﻿SELECT videogames.id, videogames.name, videogames.overview, videogames.release_date
-FROM videogames
-WHERE videogames.id = 3
+﻿INSERT INTO videogames (name, overview, release_date, software_house_id)
+VALUES ('ciao', 'ciao', '12-12-1994', 1)
