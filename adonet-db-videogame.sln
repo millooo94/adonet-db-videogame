@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adonet-db-videogame", "adonet-db-videogame.csproj", "{8E208320-980B-4FC4-AAAB-43A30B0E2EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E208320-980B-4FC4-AAAB-43A30B0E2EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E208320-980B-4FC4-AAAB-43A30B0E2EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E208320-980B-4FC4-AAAB-43A30B0E2EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E208320-980B-4FC4-AAAB-43A30B0E2EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE462E1E-2BC8-497D-84F7-55AA3A2F0F11}
+	EndGlobalSection
+EndGlobal
